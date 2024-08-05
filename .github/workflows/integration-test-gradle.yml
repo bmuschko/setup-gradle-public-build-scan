@@ -25,7 +25,7 @@ jobs:
         npm install
         npm run build
     - name: Set up Gradle
-      uses: gradle/actions/setup-gradle@v3
+      uses: gradle/actions/setup-gradle@v4
       with:
         gradle-version: current
     - name: Set up build scan
